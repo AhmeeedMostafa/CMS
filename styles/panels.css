@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.head{
+	background:#005599;
+	color:#FFF;
+	padding:5px;	
+	text-align:center;
+	font-weight:bold;
+}

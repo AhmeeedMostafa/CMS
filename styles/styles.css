@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+*{ margin:0px; padding:0px; outline:0px;}
+
+body{
+	background:#FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#000;
+	font-size: 12px;
+	direction: rtl;
+}
+#home{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	border: #F1F1F1 1px dotted;
+}
+#home #header{
+	background:#005599;
+	font-size:14px;
+	color:#FFF;
+	padding:20px;
+	
+}
+#home #navbar{
+	background:F1F1F1;
+	height:24px;
+	padding:3px;
+}
+#home #navbar ul{
+	margin:0px;
+	padding:0px;
+}
+#home #navbar ul li{
+	list-style-type:none;
+	display:block;
+	float:right;
+	padding:4px;
+}
+#home #navbar ul li a{
+	padding:7px;
+	text-decoration:none;
+	color:#555;
+}
+#home #navbar ul li a:hover{
+	background:#999;
+	color:#FFF;
+}
+#home #footer{
+	background:#F1F1F1;
+	padding:5px;
+	font-size: 10px;
+	color: #555;
+	text-align: center;
+}
+#home .clear{
+	clear: both;
+}
+
+.tbl1{
+	background-color: #f1f1f1;
+	font-weight: bold;
+	padding: 3px;
+}
+.tbl2{
+	background-color: #FFF;
+	font-weight: bold;
+	padding: 3px;
+}
+
+
+.buttons{
+    background-color: #555;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: #fff 1px dotted;
+    color: #fff;
+}
+
+.buttons:hover{
+    background-color: #f99600;
+    color: #CCFF99;
+    border: #555 1px dashed;
+}
+
+input,textarea,select{
+    background-color: #fff;
+    border: 1px dotted #555;
+}
+input:hover,textarea:hover,select:hover{
+    background-color: #97ffe4;
+    border: 1px solid #555555;
+}
+input:focus,textarea:focus,select:focus{
+    background-color: #ffecb2;
+    border: 1px solid #000000;
+}
